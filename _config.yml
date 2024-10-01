@@ -1,0 +1,14 @@
+title: "B2S - Boutique de Software"
+email: "robertoalbinojunior@gmail.com"
+description: "Soluções de software sob medida para o seu negócio."
+url: "https://www.b2s.boutique"
+telefone: (48) 996897458
+
+seo:
+  title: "B2S - Boutique de Software"
+  description: "Soluções de software sob medida para o seu negócio."
+  url: "https://www.b2s.boutique"
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
