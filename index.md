@@ -7,7 +7,7 @@ title: "B2S - Boutique de Software"
 
 A **B2S** é uma software house especializada em desenvolver soluções tecnológicas sob medida para o seu negócio.
 
-## Nossos Serviços
+## Nossos Serviçoss
 
 - **Desenvolvimento Web**
 - **Aplicativos Móveis**
