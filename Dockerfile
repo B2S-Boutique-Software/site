@@ -1,6 +1,6 @@
 FROM ruby:3.3.5
 
-RUN apt-get update -qq &&  apt-get install -y build-essential nodejs
+RUN apt-get update -qq
 
 WORKDIR /usr/src/app
 
