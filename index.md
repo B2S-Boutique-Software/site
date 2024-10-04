@@ -19,4 +19,4 @@ A **B2S** é uma software house especializada em desenvolver soluções tecnoló
 ## Entre em Contato
 
 - **Email**: [{{ site.email }}](mailto:{{ site.email }})
-- **Telefone**: {{ site.telefone }}
+- **Telefone**: [WhatsApp]({{ site.telefone }})
