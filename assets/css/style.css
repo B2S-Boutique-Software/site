@@ -1,35 +1,74 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-  }
-  
-  header, footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 10px 0;
-  }
-  
-  main {
-    padding: 20px;
-  }
-  
-  h1, h2, h3 {
-    color: #333;
-  }
-  
-  a {
-    color: #0066cc;
-    text-decoration: none;
-  }
-  
-  ul {
-    list-style-type: none;
-    padding: 0;
-  }
-  
-  ul li {
-    margin: 5px 0;
-  }
-  
+/* Remove margens e padding do corpo */
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #000000;
+  color: #fff;
+  padding: 10px 20px;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Alinha logo à esquerda e menu à direita */
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 50px; /* Ajuste o tamanho da logo conforme necessário */
+  margin-right: 10px;
+}
+
+h1 {
+  font-size: 24px;
+  margin: 0;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  margin-left: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+.social-icons {
+  display: flex;
+  align-items: center;
+}
+
+.social-icons a {
+  color: #fff; /* Cor do ícone */
+  margin-left: 20px;
+  font-size: 24px; /* Tamanho do ícone */
+}
+
+.social-icons a:hover {
+  color: #E4405F; /* Cor ao passar o mouse (para o Instagram, por exemplo) */
+}
+
+.footer {
+  background-color: #000000;
+  color: #fff;
+  padding: 10px 20px;
+}
+
