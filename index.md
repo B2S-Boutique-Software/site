@@ -3,8 +3,6 @@ layout: default
 title: "B2S - Boutique de Software"
 ---
 
-<img src="favicon.png" alt="Logo da B2S" style="max-width: 200px;">
-
 # Bem Vindo à B2S - Boutique de Software
 
 A **B2S** é uma software house especializada em desenvolver soluções tecnológicas sob medida para o seu negócio.
@@ -19,4 +17,4 @@ A **B2S** é uma software house especializada em desenvolver soluções tecnoló
 ## Entre em Contato
 
 - **Email**: [{{ site.email }}](mailto:{{ site.email }})
-- **Telefone**: [WhatsApp]({{ site.telefone }})
+- **Telefone**: [+55 48 996897458]({{ site.telefone }})
