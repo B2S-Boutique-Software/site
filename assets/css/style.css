@@ -1,75 +1,58 @@
-/* Remove margens e padding do corpo */
-html, body {
+* {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
-header {
-  background-color: #000000;
-  color: #fff;
-  padding: 10px 20px;
+html, body {
+  height: 100%;
+  margin: 0;
 }
 
-.header-container {
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex: 1;
+}
+
+.header {
+  background-color: #000;
+  color: white;
+  padding: 20px;
   display: flex;
   align-items: center;
-  justify-content: space-between; /* Alinha logo à esquerda e menu à direita */
-}
-
-.logo-container {
   display: flex;
-  align-items: center;
+  justify-content: space-between;
 }
 
 .logo {
-  width: 50px; /* Ajuste o tamanho da logo conforme necessário */
-  margin-right: 10px;
-}
-
-h1 {
-  font-size: 24px;
-  margin: 0;
-}
-
-nav ul {
-  display: flex;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-nav ul li {
-  margin-left: 20px;
-}
-
-nav ul li a {
-  color: #fff;
-  text-decoration: none;
-}
-
-nav ul li a:hover {
-  text-decoration: underline;
-}
-
-.social-icons {
   display: flex;
   align-items: center;
 }
 
-.social-icons a {
-  color: #fff; /* Cor do ícone */
-  margin-left: 20px;
-  font-size: 24px; /* Tamanho do ícone */
+.instagram-icon {
+  display: flex;
+  align-items: center;
 }
 
-.social-icons a:hover {
-  color: #E4405F; /* Cor ao passar o mouse (para o Instagram, por exemplo) */
+.instagram-icon a {
+  color: #fff; 
+  margin-right: 20px;
+  font-size: 24px;
+}
+
+.instagram-icon a:hover {
+  color: #E4405F; 
 }
 
 .footer {
   background-color: #000000;
   color: #fff;
-  padding: 10px 20px;
+  padding: 20px;
   text-align: center;
 }
 

@@ -3,7 +3,7 @@ name: Deploy Jekyll site to GitHub Pages
 on:
   push:
     branches:
-      - main  # Altere para a branch que você usa
+      - main  
 
 permissions:
   contents: read
@@ -21,7 +21,7 @@ jobs:
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '3.3.5'  # Altere para a versão do Ruby que você usa
+          ruby-version: '3.3.5' 
 
       - name: Install dependencies
         run: |

@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
   <link rel="icon" type="image/png" href="favicon.png">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-484BLCDERH"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
@@ -19,26 +20,25 @@
   </script>
 </head>
 <body>
-  <header>
-    <div class="header-container">
-      <div class="logo-container">
-        <img src="{{ 'favicon.png' | relative_url }}" alt="B2S Logo" class="logo">
-        <h1>B2S Boutique de Software</h1>
+  <header class="header">
+
+      <div class="logo">
+        <img src="{{ 'favicon.png' | relative_url }}" alt="B2S Logo" width="40">
+        <h2>B2S</h2>
       </div>
       
-      <div class="social-icons">
+      <div class="instagram-icon">
         <a href="https://www.instagram.com/b2s.software" target="_blank">
-          
           <i class="fab fa-instagram"></i>
         </a>
       </div>
-    </div>
+
   </header>
   <main>
     {{ content }}
   </main>
   <footer class="footer">
-    <p>&copy; {{ site.time | date: "%Y" }} {{ site.title }}</p>
+    <p>{{ site.time | date: "%Y" }} {{ site.title }}</p>
   </footer>
 </body>
 </html>

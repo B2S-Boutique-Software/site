@@ -1,0 +1,1 @@
+clear && sudo docker build -t site . && sudo docker run -p 4000:4000 site
